@@ -84,7 +84,7 @@ git save "feat (dashboard): modify general sales and expense graphs
 ```
 
 > [!WARNING]
-> This output that chatGPT should give you is ready for copy and paste only, clearly you should have configured your "save" alias in git for it to work correctly.
+> This output that ChatGPT should give you is ready for copy and paste only, clearly you should have configured your "save" alias in git for it to work correctly.
 
 # Conclusion
 With the Commit-Generator, writing clear and consistent commit messages becomes a seamless part of your development workflow. By leveraging the power of ChatGPT, developers can ensure that their commits adhere to established conventions, promoting better communication and collaboration within their teams.
