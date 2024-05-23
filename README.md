@@ -9,7 +9,11 @@ To use the Commit-Generator effectively, follow these simple steps:
 1. **Configure Git Alias:** Before utilizing the Commit-Generator, set up the following Git alias:
 
 ```
+# Linux or MAC
 git config --global alias.save '!f() { git add . && git commit -m "$1"; }; f'
+
+# Windows
+git config --global alias.save "!f() { git add . && git commit -m \"$1\"; }; f"
 ```
 
 > [!TIP]
