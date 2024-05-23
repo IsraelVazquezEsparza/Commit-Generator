@@ -10,14 +10,20 @@ To use the Commit-Generator effectively, follow these simple steps:
 
 ```
 # Linux or MAC
-git config --global alias.save '!f() { git add . && git commit -m "$1"; }; f'
+git config --global alias.save '!f() { git add . && git commit -m "$*"; }; f'
 
 # Windows
-git config --global alias.save "!f() { git add . && git commit -m \"$1\"; }; f"
+git config --global alias.save "!f() { git add . && git commit -m \"$*\"; }; f"
 ```
 
 > [!TIP]
 > This alias simplifies the commit process, allowing you to directly commit changes with a message.
+
+If you want to check all yout git alias, run the following command:
+
+```
+git config --get-regexp alias
+```
 
 2. **Prompt:** When you're ready to commit your changes, use the next prompt for the Commit-Generator. Provide your commit message in a "raw" format, either in English or Spanish.
 
